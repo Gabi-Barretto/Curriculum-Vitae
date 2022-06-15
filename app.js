@@ -72,4 +72,4 @@ app.put('/user', function(req, res) {
     }
 });
 
-app.listen(3000, () => console.log("rodei3000"));
+app.listen(process.env.PORT, () => console.log("rodei3000"));
