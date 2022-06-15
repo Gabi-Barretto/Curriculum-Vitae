@@ -18,6 +18,15 @@ const DBPATH = './bancoo.db';
 
 //creatingTable();
 
+app.get('/', function(req, res) {
+    res.send(
+
+        "ola"
+    
+    );
+    
+});
+
 app.get('/user', (req, res) => {
 	res.statusCode = 200;
 	res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
