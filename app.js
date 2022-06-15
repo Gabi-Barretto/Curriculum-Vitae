@@ -15,6 +15,7 @@ app.use(express.json());
 // const sqlite3 = require('sqlite3').verbose();
 const DBPATH = './bancoo.db';
 
+app.use(express.static('/Front/'));
 
 //creatingTable();
 
